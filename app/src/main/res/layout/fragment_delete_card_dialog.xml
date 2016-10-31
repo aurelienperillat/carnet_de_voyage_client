@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/medium_padding"
+    android:background="@drawable/add_dialog"
+    tools:context="com.example.aurel.fragment.DeleteCardDialogFragment">
+
+    <TextView
+        android:id="@+id/delete_card_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_card_fragment"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/valid_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:background="@drawable/home_button"
+        android:text="@string/valider"
+        android:textColor="@color/white"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
+
+</LinearLayout>

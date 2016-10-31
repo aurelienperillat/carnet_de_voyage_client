@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Carnet de voyage</string>
+    <string name="home_button1">Mes voyages</string>
+    <string name="home_button2">Tous les voyages</string>
+    <string name="home_icon">Home Icon</string>
+    <string name="plus_icon">Plus Icon</string>
+    <string name="valider">Valider</string>
+    <string name="add_trip_fragment">Titre du voyage</string>
+    <string name="delete_trip_fragment">Êtes vous sur de vouloir supprimer ce voyage ?</string>
+    <string name="delete_card_fragment">Êtes vous sur de vouloir supprimer cette carte ?</string>
+    <string name="share_trip_fragment">Êtes vous sur de vouloir partager ce voyage ?</string>
+    <string name="edit_commentaire">Description</string>
+</resources>
